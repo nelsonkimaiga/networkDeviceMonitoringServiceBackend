@@ -21,4 +21,8 @@ The endpoints defined in the DeviceController class are:
 - `GET` - http://localhost:8080/api/devices/{deviceId} - for retrieving device details with its 20 most recent status reports
 
 # Db Set-up:
-Db set-up (hostname, port and credentials) will be configured by creating an `.env` file, whose contents can be retieved from the `.env.example` which only serves as a template.
+Db set-up (hostname, port and credentials) will be configured by creating an `.env` file on the project root, whose contents can be retrieved from the `.env.example` which only serves as a template as below:
+
+- `DB_URL=jdbc:mysql://dbHost:portNumber/dbName`
+- `DB_USER=dbUsername`
+- `DB_PASSWORD=dbPassword`
